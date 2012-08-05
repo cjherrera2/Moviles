@@ -35,5 +35,7 @@ public class PhotosListActivity extends ListActivity {
         setContentView(R.layout.photos_list);
         setListAdapter(Adapters.loadCursorAdapter(this, R.xml.photos,
                 "content://xmldocument/?url=" + Uri.encode(PICASA_FEED_URL)));
+        
+        //Prueba Commit
     }
 }
